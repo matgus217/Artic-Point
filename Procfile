@@ -1,1 +1,1 @@
-web: gunicorn articpoint.wsgi
+web: gunicorn artic-point.wsgi
