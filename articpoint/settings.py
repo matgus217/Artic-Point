@@ -30,7 +30,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['articpoint.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['articpoint.herokuapp.com', 'localhost',
+                 '8000-matgus217-artic-point-elt9e7dfiq.us2.codeanyapp.com']
 
 
 # Application definition
