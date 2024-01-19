@@ -8,3 +8,7 @@ def get_index(request):
 
 def get_menu(request):
     return render(request, 'pages/menu.html')
+
+
+def get_about(request):
+    return render(request, 'pages/about.html')
