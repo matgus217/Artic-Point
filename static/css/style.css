@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cairo+Play:wght@500;600&family=Caveat:wght@600&family=Chilanka&family=Fira+Sans:wght@300&family=Inter:wght@100&family=Noto+Sans:wght@300&family=Nova+Square&family=Playpen+Sans:wght@500&family=Poppins:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cairo+Play:wght@500;600&family=Caveat:wght@600&family=Chilanka&family=Fira+Sans:wght@300&family=Inter:wght@100&family=Noto+Sans:wght@300&family=Nova+Square&family=Playpen+Sans:wght@500&family=Poppins:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap");
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
     font-size: 18px;
     overflow-x: hidden;
 }
-
 
 .logo {
     color: black;
@@ -19,13 +18,11 @@ body {
 }
 
 .menu {
-
     width: 100%;
     height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .menu a {
@@ -61,7 +58,6 @@ body {
     align-items: center;
     font-size: 40px;
     text-align: center;
-
 }
 
 .about-section p {
@@ -71,11 +67,9 @@ body {
     font-weight: bolder;
 }
 
-
-
 .navbar {
     overflow: hidden;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     border-radius: 10px;
 }
 
@@ -103,19 +97,16 @@ body {
     color: black;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     border-radius: 10px;
 }
-
 
 /* Add a white background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
     background-color: white;
-
 }
-
 
 .dropdown-content {
     display: none;
@@ -124,7 +115,6 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-
 }
 
 /* Links inside the dropdown */
@@ -138,12 +128,10 @@ body {
     border-radius: 10px;
 }
 
-
 .dropdown-content a:hover {
     background-color: lightskyblue;
     border-radius: 10px;
 }
-
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -154,13 +142,10 @@ body {
     max-width: 1000px;
     position: relative;
     margin: auto;
-
 }
 
 img {
     width: 100%;
-
-
 }
 
 .fade {
@@ -170,11 +155,11 @@ img {
 
 @keyframes fade {
     from {
-        opacity: .5
+        opacity: 0.5;
     }
 
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -199,14 +184,12 @@ img {
 }
 
 .footer .footer-container .box2 a i {
-    padding-right: .5rem;
+    padding-right: 0.5rem;
 }
 
 .footer .footer-container .box2 a:hover i {
     padding-right: 2rem;
 }
-
-.write {}
 
 .write form {
     margin: 0 auto 2rem auto;
@@ -218,13 +201,13 @@ img {
 
 .write form .box {
     width: 100%;
-    padding: 1rem 1.rem;
-    border-radius: .5rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
     font-size: 20px;
     text-transform: none;
     color: var(--main-color);
     border: var(--border);
-    margin: .7rem 0;
+    margin: 0.7rem 0;
 }
 
 .write form .box:focus {
@@ -272,7 +255,6 @@ img {
 
 .heading:hover {
     color: lightskyblue;
-
 }
 
 .menu2 .box-container {
@@ -294,8 +276,6 @@ img {
     color: lightskyblue;
 }
 
-
-
 .menu2 .box-container .box .content h3 {
     font-size: 2.2rem;
     color: black;
@@ -314,7 +294,6 @@ img {
     color: black;
     line-height: 1.8;
 }
-
 
 .timeline-info {
     text-align: center;
@@ -348,8 +327,6 @@ a {
     clear: both;
 }
 
-
-
 .col {
     width: 100%;
 }
@@ -370,8 +347,6 @@ a {
 .photo {
     position: relative;
 }
-
-
 
 .date-wrapper {
     position: absolute;
@@ -395,7 +370,6 @@ a {
 .date-wrapper .date .day {
     font-size: 20px;
     color: black;
-
 }
 
 .date-wrapper .date .year {
@@ -404,9 +378,7 @@ a {
     text-transform: uppercase;
 }
 
-
-
-.timeline-post:nth-child(2n+3) {
+.timeline-post:nth-child(2n + 3) {
     clear: both;
 }
 
@@ -415,7 +387,6 @@ a {
 }
 
 .timeline-post:nth-child(even) {
-
     margin-bottom: 0;
     margin-top: 20px;
 }
@@ -425,8 +396,6 @@ a {
     right: 50%;
     margin-right: -25px;
 }
-
-
 
 .desc {
     text-align: center;
@@ -442,7 +411,7 @@ a {
     transition-delay: 0s;
     transition-duration: 0.2s;
     transition-property: all;
-    transition-timing-function: ease-out
+    transition-timing-function: ease-out;
 }
 
 .owl-item .desc h4 {
@@ -457,6 +426,15 @@ a {
     color: black;
     font-size: 20px;
     font-weight: 400;
+}
+
+#book-table {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
 }
 
 @media (min-width: 768px) {
@@ -475,7 +453,6 @@ a {
     .col {
         width: 43%;
     }
-
 
     .date-wrapper {
         position: absolute;
@@ -563,8 +540,6 @@ a {
 }
 
 @media (min-width: 1200px) {
-
-
     .timeline-post:nth-child(even) {
         margin-top: 100px;
     }
@@ -676,5 +651,4 @@ a {
         margin-top: -2px;
         z-index: -10;
     }
-
 }

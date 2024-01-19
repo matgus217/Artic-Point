@@ -1,7 +1,11 @@
 from django.shortcuts import render
+from django.views import generic
+from django.shortcuts import render
 
 
 # Create your views here.
+
+
 def get_index(request):
     return render(request, 'pages/index.html')
 
