@@ -12,3 +12,7 @@ def get_menu(request):
 
 def get_about(request):
     return render(request, 'pages/about.html')
+
+
+def get_book(request):
+    return render(request, 'pages/book.html')
