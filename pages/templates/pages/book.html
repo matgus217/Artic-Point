@@ -61,7 +61,37 @@
       </div>
     </header>
 
-   
+    <section class="container-fluid" id="book-bg">
+    <div class="main-wrap">
+        <div class="cover_ 1 cover_sm">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-7">
+                        <h2 class="reservation-heading">Book Your Table Here!</h2>
+                        <div id="book-table">
+                            <form method="POST" action="" enctype="multipart/form-data" id="book-form">
+                                {% csrf_token %}
+                                <table>
+                                    {{ form }} {% if messages %} {% for message in messages %} {%
+                                    if message.tags %}
+                                    <script>
+                                        alert("{{ message }}");
+                                    </script>
+                                    {% endfor %} {% endif %}
+                                </table>
+                                <table>
+                                    <input type="submit" class="reserve-button" value="Book table!" />
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                        
+                </div>
+                <p id="book">When You have booked the table, Please do not update the website before a confirmation message pops up.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
     <footer class="footer">
         <div class="footer-container">

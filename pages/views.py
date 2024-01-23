@@ -3,6 +3,11 @@ from django.views import generic
 from django.shortcuts import render
 
 
+from .models import Reservation
+from .forms import Reserve_table_form
+from django.contrib import messages
+
+
 # Create your views here.
 
 
@@ -19,4 +24,9 @@ def get_about(request):
 
 
 def get_book(request):
-    return render(request, 'pages/book.html')
+    if request.POST:
+        form = Reserve_table_form(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Booking succesful!')
+    return render(request, 'pages/book.html', {'form': Reserve_table_form})
