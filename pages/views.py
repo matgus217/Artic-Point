@@ -1,9 +1,7 @@
 from django.shortcuts import render
 from django.views import generic
-from django.shortcuts import render
-
-
 from .models import Reservation
+from django.shortcuts import render
 from .forms import Reserve_table_form
 from django.contrib import messages
 

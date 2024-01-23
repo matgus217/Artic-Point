@@ -1,4 +1,3 @@
-
 from django.contrib import admin
 from django.urls import path, include
 from pages.views import get_index, get_menu, get_about, get_book
