@@ -428,15 +428,6 @@ a {
     font-weight: 400;
 }
 
-#book-table {
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-}
-
 @media (min-width: 768px) {
     #section_2 .owl-item {
         padding: 0 20px;
@@ -497,6 +488,27 @@ a {
 .reservetion-heading {
     text-align: center;
 }
+
+.container-fluid {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.book-table {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 850px) {
     .timeline-post:nth-child(odd) .date-wrapper {
         right: -85px;
