@@ -72,8 +72,7 @@
                             <form method="POST" action="" enctype="multipart/form-data" id="book-form">
                                 {% csrf_token %}
                                 <table>
-                                    {{ form }} {% if messages %} {% for message in messages %} {%
-                                    if message.tags %}
+                                    {{ form }} {% if messages %} {% for message in messages %}
                                     <script>
                                         alert("{{ message }}");
                                     </script>
@@ -81,7 +80,7 @@
                                 </table>
                               
                                 <table>
-                                    <input type="submit" class="reserve-button" value="Book table!" />
+                                    <input type="submit" class="reserve-button" value="Book!" />
                                 </table>
                             </form>
                         </div>

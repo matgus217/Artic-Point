@@ -4,7 +4,7 @@ from cloudinary.models import CloudinaryField
 from django.core.validators import MinValueValidator, MaxValueValidator
 from datetime import datetime
 
-# Create your models here.
+
 
 sittingTimes = (
     ("3-5", "15-17"),
