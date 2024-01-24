@@ -3,10 +3,10 @@ from django import forms
 from .models import Reservation
 
 tableChoices = {
-    'window1': 'Bigger table by window',
-    'window2': 'Smaller table by window',
-    'bigTable1': 'Big table in isle',
-    'bigTable2': 'Big table upstairs'
+    'window1': 'Table with view',
+    'window2': 'Table around ice-fountain',
+    'bigTable1': 'Big table with lake view',
+    'bigTable2': 'Big table upstairs with lake view'
 }
 
 sittingTimes = [('3-5', '15-17'), ('5-7', '17-19'), ('7-9', '19-21'),]
