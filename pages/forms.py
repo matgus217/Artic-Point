@@ -2,14 +2,15 @@ from django.forms import ModelForm
 from django import forms
 from .models import Reservation
 
-tableChoices = {
-    'window1': 'Table with view',
-    'window2': 'Table around ice-fountain',
-    'bigTable1': 'Big table with lake view',
-    'bigTable2': 'Big table upstairs with lake view'
-}
 
-sittingTimes = [('3-5', '15-17'), ('5-7', '17-19'), ('7-9', '19-21'),]
+tableChoices = [
+    ('1', 'Table with view'),
+    ('2', 'Table around ice-fountain'),
+    ('3', 'Big table with lake view'),
+    ('4', 'Big table upstairs with lake view')
+]
+
+sittingTimes = [('3-5', '3pm-5pm'), ('5-7', '5pm-7pm'), ('7-9', '7pm-9pm'),]
 
 
 class Reserve_table_form(ModelForm):
@@ -20,13 +21,16 @@ class Reserve_table_form(ModelForm):
     phone_number = forms.IntegerField(widget=forms.TextInput(
         attrs={'placeholder': 'Phone-number', 'style': 'width: 200px;', 'class': 'form-control'}))
     number_of_people = forms.IntegerField(widget=forms.NumberInput(
-        attrs={'placeholder': 'Number of people', 'style': 'width: 200px;', 'class': 'form-control'}))
+        attrs={'min': 1, 'max': '10', 'type': 'number', 'placeholder': 'Number of people', 'style': 'width: 200px;', 'class': 'form-control'}))
+    table = forms.ChoiceField(choices=tableChoices, widget=forms.Select(
+        attrs={'style': 'width: 200px;', 'class': 'form-control'}))
     date = forms.DateField(widget=forms.NumberInput(
-        attrs={'placeholder': 'Which day do you wish to visit us?', 'class': 'form-control', 'type': 'date', 'style': 'width: 200px;'}))
+        attrs={'class': 'form-control', 'type': 'date', 'style': 'width: 200px;'}))
     time = forms.ChoiceField(choices=sittingTimes, widget=forms.Select(
-        attrs={'placeholder': 'What time do you want to visit us?', 'style': 'width: 200px;', 'class': 'form-control'}))
+        attrs={'style': 'width: 200px;', 'class': 'form-control'}))
 
     class Meta:
         model = Reservation
         fields = ['name', 'email', 'phone_number',
-                  'number_of_people', 'date', 'time']
+                  'number_of_people', 'date', 'time', 'table']
+        unique_together = ('date', 'time', 'table',)
