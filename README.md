@@ -1,6 +1,6 @@
 # Artic-Point
 
-Welcome,
+
 Artic-Point is a website for a restaurant in Jukkasjärvi, Sweden. The resturant is also an experience as the entire restaurant is covered in ice and snow. It will help customers to hopefully choose Artic-Point for their next experience in both Sweden and in food. For Artic-Point love of nature the whole menu is locally grown thats why it is a little bit more expensive, yet delicious and worth every penny. Artic-Point's webpage is useful to costumers because they can easily navigate around the page. They can easily find the menu and they can read about the resturant and how they only use local and organic products, book a table and find were the restaurant is located on a google map at the same time as they get to enjoy fantastic pictures of both food and nature.
 
 ## Existing Features
