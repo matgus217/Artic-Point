@@ -12,10 +12,10 @@ sittingTimes = (
 )
 
 tableChoices = [
-    ('1', 'Table with view'),
-    ('2', 'Table around ice-fountain'),
-    ('3', 'Big table with lake view'),
-    ('4', 'Big table upstairs with lake view')
+    ('1', 'Table at the Ice Bar'),
+    ('2', 'Table around Ice-Fountain'),
+    ('3', 'Table With a View of Torne River'),
+    ('4', 'Table Made Of Ice')
 ]
 
 
