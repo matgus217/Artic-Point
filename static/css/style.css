@@ -138,33 +138,6 @@ body {
     border-radius: 10px;
 }
 
-/* Slideshow in js */
-
-.image-slideshow {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-
-img {
-    width: 100%;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 4s;
-}
-
-@keyframes fade {
-    from {
-        opacity: 0.5;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
 /* Footer */
 
 .footer .footer-container {
@@ -257,6 +230,11 @@ img {
     padding-left: 0px;
     font-weight: bold;
     font-size: 25px;
+}
+
+.menu-img {
+    max-width: 100%;
+
 }
 
 .heading:hover {
@@ -455,7 +433,6 @@ a {
     text-align: center;
     font-size: 30px;
 }
-
 
 table {
     margin-left: auto;
