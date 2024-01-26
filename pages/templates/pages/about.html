@@ -54,7 +54,7 @@
                     <div id="post-1" class="col timeline-post">
                         <div class="vesti-content-wrapper">
                             <div class="photo">
-                                <img class="time-line-img" src="{% static 'waterfall.jpg' %}">
+                                <img class="time-line-img" src="{% static 'waterfall.jpg' %}" alt="waterfall">
                                 <div class="date-wrapper">
                                     <div class="date">
                                         <span class="day">1995</span>
@@ -79,7 +79,7 @@
                     <div id="post-2" class="col timeline-post">
                         <div class="content-wrapper">
                             <div class="photo">
-                                <img class="time-line-img"src="{% static 'flower.jpg' %}">
+                                <img class="time-line-img" src="{% static 'flower.jpg' %}" alt="flower">
                                 <div class="date-wrapper">
                                     <div class="date">
                                         <span class="day">1997</span>
@@ -104,7 +104,7 @@
                     <div id="post-3" class="col timeline-post">
                         <div class="content-wrapper">
                             <div class="photo">
-                                <img class="time-line-img"src="{% static 'three.jpg' %}">
+                                <img class="time-line-img" src="{% static 'three.jpg' %}" alt="three">
                                 <div class="date-wrapper">
                                     <div class="date">
                                         <span class="day">2000</span>
@@ -130,7 +130,7 @@
                     <div id="post-4" class="col timeline-post">
                         <div class="content-wrapper">
                             <div class="photo">
-                                <img class="time-line-img"src="{% static 'wood.jpg' %}">
+                                <img class="time-line-img" src="{% static 'wood.jpg' %}" alt="wood">
                                 <div class="date-wrapper">
                                     <div class="date">
                                         <span class="day">2012-</span>
@@ -186,19 +186,21 @@
 
             <div class="box2">
                 <h3>FOLLOW US</h3>
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"></i> Facebook</a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i>Facebook</a>
 
 
-                <a href="https://www.instagram.com/"><i class="fab fa-instagram" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"></i> Instagram</a>
-
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i>Instagram
+                </a>
                 <div class="write">
                     <h2>Give us a message</h2>
                     <form method="post" action="https://formdump.codeinstitute.net">
                         <input type="text" placeholder="Name" class="box">
                         <input type="email" placeholder="Email" class="box">
-                        <textarea name="" placeholder="Message" class="box" id="" cols="30" rows="10"></textarea>
+                        <textarea name="message" placeholder="Message" class="box"  cols="30" rows="10"></textarea>
                         <input type="submit" value="Send" class="btn">
                     </form>
 
@@ -206,8 +208,8 @@
 
 
             </div>
-        </div>
-        </div>
+        
+        
     </footer>
 
 
