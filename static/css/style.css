@@ -30,19 +30,14 @@ body {
     text-align: center;
 }
 
-.intro-img {
+.section-intro {
     height: 820px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.section-intro {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: url("/static/snow.jpg") no-repeat center center/cover;
 }
 
 .section-intro h2 {
