@@ -31,9 +31,7 @@ body {
     text-align: center;
 }
 
-.section-intro {
-    background: url("/static/snow.jpg") no-repeat center center/cover;
-}
+
 
 .section-intro h2 {
     text-align: center;
