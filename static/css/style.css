@@ -31,12 +31,6 @@ body {
 }
 
 .section-intro {
-    height: 820px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: url("/static/snow.jpg") no-repeat center center/cover;
 }
 
@@ -44,6 +38,7 @@ body {
     text-align: center;
     font-size: 4em;
     font-weight: 700;
+
 }
 
 .section-intro p {
@@ -53,6 +48,8 @@ body {
     background: white;
     border-radius: 10px;
 }
+
+
 
 .about-section h3 {
     align-items: center;
