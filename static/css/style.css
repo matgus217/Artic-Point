@@ -32,7 +32,7 @@ body {
 
 .section-intro {
     height: 820px;
-    background-image: url("/static/images/ice2.jpg");
+    background-image: url("/static/ice2.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
