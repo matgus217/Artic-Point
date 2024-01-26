@@ -31,8 +31,9 @@ body {
 }
 
 .section-intro {
-
-    background-size: cover;
+    height: 820px;
+    background: url("https: //res.cloudinary.com/matgus/image/upload/v1706259732/static/snow.a8aebe9b6fc3.jpg");
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
