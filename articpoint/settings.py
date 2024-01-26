@@ -28,7 +28,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['articpoint-65f875d27ec1.herokuapp.com', 'articpoint.herokuapp.com', 'localhost',
                  '8000-matgus217-artic-point-elt9e7dfiq.us2.codeanyapp.com']
@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
-    'django_summernote',
     'pages',
 ]
 
