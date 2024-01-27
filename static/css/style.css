@@ -405,8 +405,6 @@ a {
     font-weight: 400;
 }
 
-/* Book A Table */
-
 .reservetion-heading {
     text-align: center;
 }
@@ -424,6 +422,7 @@ a {
     text-align: center;
     font-size: 30px;
 }
+
 
 table {
     margin-left: auto;
