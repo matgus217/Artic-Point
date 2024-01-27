@@ -1,255 +1,188 @@
-
-{% load static %} 
+{% load static %}
 
 <!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Locally grown food Jukkasjärvi" />
-        <meta name="keywords" content="Locally grown food Jukkasjärvi" />
-    
-        <script src="https://kit.fontawesome.com/032f9bfe1a.js" crossorigin="anonymous"></script>
-       
-    
-      <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    
-        <title>ARTIC POINT</title>
-    </head>
-    
-    <body>
-        <header class="menu">
-            <a href="index.html">
-                <h1 class="logo" aria-label="Logo leading home">
-                    ARTIC <span>POINT</span>
-                </h1>
-            </a>
-            <!--navbar starts-->
-            <div class="navbar">
-                <a href="index.html">Home</a>
-                <div class="dropdown">
-                    <button class="dropbtn">
-                        Menu
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="menu.html">Menu</a>
-                        <a href="about.html">About Us</a>
-                        <a href="book.html">Book A Table</a>
-                    </div>
-                </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Locally grown food Jukkasjärvi" />
+    <meta name="keywords" content="Locally grown food Jukkasjärvi" />
+    <script
+      src="https://kit.fontawesome.com/032f9bfe1a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <title>ARTIC POINT</title>
+  </head>
+
+  <body>
+    <header class="menu">
+      <a href="index.html">
+        <h1 class="logo" aria-label="Logo leading home">
+          ARTIC <span>POINT</span>
+        </h1>
+      </a>
+      <!--navbar starts-->
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="menu.html">Menu</a> <a href="about.html">About Us</a>
+            <a href="book.html">Book A Table</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--menu-->
+    <main class="menu2" id="menu">
+      <h1 class="heading">OUR MENU</h1>
+      <div class="box-container">
+        <a class="box">
+          <div class="content">
+            <h3>MOOSE</h3>
+            <p>
+              Butter-fried mushrooms, baked red onions, blueberry sauce, almond
+              potato puree.
+            </p>
+          </div>
+        </a>
+        <a class="box">
+          <div class="content">
+            <h3>CAULIFLOWER</h3>
+            <p>Cauliflower, baked cabbage, herbal emulsion, hazelnuts.</p>
+          </div>
+        </a>
+        <a class="box">
+          <div class="content">
+            <h3>COD</h3>
+            <p>
+              Roasted fennel, white wine sauce, dill tossed cucumber, almond
+              potatoes.
+            </p>
+          </div>
+        </a>
+        <a class="box">
+          <div class="content">
+            <h3>ARCTIC CHAR</h3>
+            <p>Grilled char, trout roe, beurre blanc, chives.</p>
+          </div>
+        </a>
+      </div>
+      <!--menu-->
+      <div class="menu2">
+        <h1 class="heading">FOR THE KIDS</h1>
+        <div class="box-container">
+          <a class="box">
+            <div class="content">
+              <h3>MINI VEGGIE SANDWICH</h3>
+              <p>
+                Avocado, cucumber, lettuce, tomato and mayonnasie on whole wheat
+                bread.
+              </p>
             </div>
-        </header>
-
-       
-    
-    
-
-        <!--menu-->
-    
-        <main class="menu2" id="menu">
-            <h1 class="heading">OUR MENU</h1>
-    
-            <div class="box-container">
-                <a class="box">
-                    <div class="content">
-                        <h3>MOOSE</h3>
-                        <p>
-                            Butter-fried mushrooms, baked red onions, blueberry sauce, almond
-                            potato puree.
-                        </p>
-                        
-                    </div>
-                </a>
-    
-                <a class="box">
-                    <div class="content">
-                        <h3>CAULIFLOWER</h3>
-                        <p>Cauliflower, baked cabbage, herbal emulsion, hazelnuts.</p>
-                    
-                    </div>
-                </a>
-    
-                <a class="box">
-                    <div class="content">
-                        <h3>COD</h3>
-                        <p>
-                            Roasted fennel, white wine sauce, dill tossed cucumber, almond
-                            potatoes.
-                        </p>
-                    
-                    </div>
-                </a>
-    
-                <a class="box">
-                    <div class="content">
-                        <h3>ARCTIC CHAR</h3>
-                        <p>Grilled char, trout roe, beurre blanc, chives.</p>
-                       
-                    </div>
-                </a>
+          </a>
+          <a class="box">
+            <div class="content">
+              <h3>PASTA WITH TOMATO SAUCE</h3>
+              <p>Spaghetti with house-made marinara sauce.</p>
             </div>
-        
-
-        <!--menu-->
-    
-        <div class="menu2">
-            <h1 class="heading">FOR THE KIDS</h1>
-    
-            <div class="box-container">
-                <a class="box">
-                    <div class="content">
-                        <h3>MINI VEGGIE SANDWICH</h3>
-                        <p>
-                            Avocado, cucumber, lettuce, tomato and mayonnasie on whole wheat
-                            bread.
-                        </p>
-                        
-                    </div>
-                </a>
-
-    
-               
-                   
-                        <a class="box">
-                            <div class="content">
-                        <h3>PASTA WITH TOMATO SAUCE</h3>
-                        <p>Spaghetti with house-made marinara sauce.</p>
-                       
-                    </div>
-                </a>
-                
-    
-                 <a class="box">
-                            <div class="content">
-                        <h3>ARTIC BURGER</h3>
-                        <p>Moose Burger with lettuce and tomato on a slider bun.</p>
-                   
-                    </div>
-                </a>
-    
-               
-                   
-                        <a class="box">
-                            <div class="content">
-                        <h3>GRILLED CHICKEN STRIPS</h3>
-                        <p>Grilled chicken breast strips with BBQ sauce.</p>
-                       
-                    </div>
-                </a>
-            
-            
-    
-        
-
-        <!--menu-->
-    
-        <div class="menu2">
+          </a>
+          <a class="box">
+            <div class="content">
+              <h3>ARTIC BURGER</h3>
+              <p>Moose Burger with lettuce and tomato on a slider bun.</p>
+            </div>
+          </a>
+          <a class="box">
+            <div class="content">
+              <h3>GRILLED CHICKEN STRIPS</h3>
+              <p>Grilled chicken breast strips with BBQ sauce.</p>
+            </div>
+          </a>
+          <!--menu-->
+          <div class="menu2">
             <h1 class="heading">DESSERTS</h1>
-    
             <div class="box-container">
-                <a class="box">
-                    <div class="content">
-                        <h3>BLACK CURRANT</h3>
-                        <p>Licorice, white chocolate, vanilla.</p>
-                    
-                    </div>
-                </a>
-    
-                <a class="box">
-                    <div class="content">
-                        <h3>BLUEBERRIES</h3>
-                        <p>Buttermilk, lemon, thyme.</p>
-                       
-                    </div>
-                </a>
-    
-                <a class="box">
-                    <div class="content">
-                        <h3>LINGONBERRIES</h3>
-                        <p>Almond, caramel, coffee.</p>
-                       
-                    </div>
-                </a>
-    
-                <a class="box">
-                    <div class="content">
-                        <h3>CLOUDBERRIES</h3>
-                        <p>Hazelnut, browned butter, dark chocolate</p>
-                   
-                    </div>
-                </a>
+              <a class="box">
+                <div class="content">
+                  <h3>BLACK CURRANT</h3>
+                  <p>Licorice, white chocolate, vanilla.</p>
+                </div>
+              </a>
+              <a class="box">
+                <div class="content">
+                  <h3>BLUEBERRIES</h3>
+                  <p>Buttermilk, lemon, thyme.</p>
+                </div>
+              </a>
+              <a class="box">
+                <div class="content">
+                  <h3>LINGONBERRIES</h3>
+                  <p>Almond, caramel, coffee.</p>
+                </div>
+              </a>
+              <a class="box">
+                <div class="content">
+                  <h3>CLOUDBERRIES</h3>
+                  <p>Hazelnut, browned butter, dark chocolate</p>
+                </div>
+              </a>
             </div>
-    </div>
-        
-
-        <!--menu-->
-    
-        <div class="menu2">
+          </div>
+          <!--menu-->
+          <div class="menu2">
             <h1 class="heading">DRINKS</h1>
             <ul class="options-list">
-                <li>Coca-Cola</li>
-                <li>Sprite</li>
-                <li>Fanta</li>
-                
+              <li>Coca-Cola</li>
+              <li>Sprite</li>
+              <li>Fanta</li>
             </ul>
-    
             <ul class="options-list">
-                <li>Red Wine: 95kr/Glass 219kr/Bottle</li>
-                <li>White Wine: 95kr/Glass 219kr/Bottle</li>
-                <li>Prosecco: 100kr/Glass 300kr/Bottle</li>
-                
-                <span>We change our sortiment every month, Please ask our staff and they
-                    will help You find the perfect drink to go with Your food!
-                </span>
+              <li>Red Wine: 95kr/Glass 219kr/Bottle</li>
+              <li>White Wine: 95kr/Glass 219kr/Bottle</li>
+              <li>Prosecco: 100kr/Glass 300kr/Bottle</li>
             </ul>
-    </div>
-    
-        </main>
-    
-        <!--footer-->
-    
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="box2">
-                    <h3>QUICK LINKS</h3>
-                    <a href="index.html"><i class="fas fa-arrow-right"></i>Home</a>
-                    <a href="menu.html"><i class="fas fa-arrow-right"></i>Menu</a>
-                    <a href="about.html"><i class="fas fa-arrow-right"></i>About Us</a>
-                    <a href="book.html"><i class="fas fa-arrow-right"></i>Book A Table</a>
-        
-                </div>
-        
-                <div class="box2">
-                    <h3>CONTACT US</h3>
-                    <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
-                    <a href="#"><i class="fas fa-envelope"></i> artic.point@gmail.com</a>
-                    <a href="#"><i class="fas fa-envelope"></i> Marknadsvägen 48,Jukkasjärvi,Sweden</a>
-                    <a
-                        href="https://www.google.com/maps/place/Marknadsv%C3%A4gen+48,+981+91+Jukkasj%C3%A4rvi/@67.8512648,20.5942401,17z/data=!3m1!4b1!4m6!3m5!1s0x45d0c79dd461503d:0x9c45921e571c8733!8m2!3d67.8512628!4d20.599111!16s%2Fg%2F11kq0c7yw6?entry=ttu"><i
-                            class="fa-solid fa-map-pin"></i>Map</a>
-                </div>
-        
-                <div class="box2">
-                    <h3>FOLLOW US</h3>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i>Facebook</a>
-                
-                
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i>Instagram</a>
-                
-                
-                
-                
-                </div>
-            </div>
-            
-        </footer>
-
-       
-    </body>
-    
-    </html>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="box2">
+          <h3>QUICK LINKS</h3>
+          <a href="index.html">Home</a> <a href="menu.html">Menu</a>
+          <a href="about.html">About Us</a> <a href="book.html">Book A Table</a>
+        </div>
+        <div class="box2">
+          <h3>CONTACT US</h3>
+          <a href="#">+123-456-7890</a> <a href="#">artic.point@gmail.com</a>
+          <a href="#">Marknadsvägen 48,Jukkasjärvi,Sweden</a>
+          <a
+            href="https://www.google.com/maps/place/Marknadsv%C3%A4gen+48,+981+91+Jukkasj%C3%A4rvi/@67.8512648,20.5942401,17z/data=!3m1!4b1!4m6!3m5!1s0x45d0c79dd461503d:0x9c45921e571c8733!8m2!3d67.8512628!4d20.599111!16s%2Fg%2F11kq0c7yw6?entry=ttu"
+            >Map</a
+          >
+        </div>
+        <div class="box2">
+          <h3>FOLLOW US</h3>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in new tab)"
+            >Facebook</a
+          >
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in new tab)"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
